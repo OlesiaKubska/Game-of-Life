@@ -1,12 +1,5 @@
-import GameOfLife from "./GameOfLife";
-import { createGlobalStyle } from "styled-components";
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-`;
+import GameOfLife from "./components/GameOfLife";
+import { GlobalStyle } from "./App.styled";
 
 function App() {
  return (
